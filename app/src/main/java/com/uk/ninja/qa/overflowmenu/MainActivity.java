@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 else
                     item.setChecked(true);
                 main_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                bodyTitle.setTextColor(Color.parseColor("#000000"));
+                bodyTitle.setTextColor(Color.parseColor("#2e69b6"));
                 bodyText.setTextColor(Color.parseColor("#000000"));
                 return true;
 
@@ -88,9 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             default:
-                main_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                bodyTitle.setTextColor(Color.parseColor("#000000"));
-                bodyText.setTextColor(Color.parseColor("#000000"));
                 return super.onOptionsItemSelected(item);
 
         }
