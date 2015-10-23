@@ -18,7 +18,8 @@
         android:id="@+id/body_Title"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:textColor="#2e69b6" />
+        android:textColor="#2e69b6"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
