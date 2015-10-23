@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/white_black"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/day_string"
+
+            />
+
+        <item
+            android:id="@+id/black_white"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/night_string" />
+
+        <item
+            android:id="@+id/mint_chocolate"
+            android:orderInCategory="13"
+            app:showAsAction="never"
+            android:title="@string/mint_string" />
+
+        <item
+            android:id="@+id/sepia"
+            android:orderInCategory="13"
+            app:showAsAction="never"
+            android:title="@string/sepia_string" />
+    </group>
+
+</menu>

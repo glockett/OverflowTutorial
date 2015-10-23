@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nigth Vision 1.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="day_string">Day time</string>
+    <string name="night_string">Night time</string>
+    <string name="mint_string">Mint chocolate</string>
+    <string name="sepia_string">Sepia</string>
+    <string name="bodyText">Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</string>
+
+</resources>
