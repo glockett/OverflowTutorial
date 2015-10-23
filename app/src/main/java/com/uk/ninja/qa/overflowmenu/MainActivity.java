@@ -42,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         RelativeLayout main_view = (RelativeLayout) findViewById(R.id.main_view);
-        TextView textresult = (TextView)findViewById(R.id.textView);
+        TextView bodyTitle = (TextView)findViewById(R.id.body_Title);
+        TextView bodyText = (TextView)findViewById(R.id.body_Text);
 
 
         switch (item.getItemId()) {
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
                 else
                     item.setChecked(true);
                 main_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                textresult.setTextColor(Color.parseColor("#000000"));
+                bodyTitle.setTextColor(Color.parseColor("#000000"));
+                bodyText.setTextColor(Color.parseColor("#000000"));
                 return true;
 
             case R.id.black_white:
@@ -61,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 else
                     item.setChecked(true);
                 main_view.setBackgroundColor(Color.parseColor("#000000"));
-                textresult.setTextColor(Color.parseColor("#FFFFFF"));
+                bodyTitle.setTextColor(Color.parseColor("#FFFFFF"));
+                bodyText.setTextColor(Color.parseColor("#FFFFFF"));
                 return true;
 
             case R.id.mint_chocolate:
@@ -70,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
                 else
                     item.setChecked(true);
                 main_view.setBackgroundColor(Color.parseColor("#d0ffdf"));
-                textresult.setTextColor(Color.parseColor("#87560b"));
+                bodyTitle.setTextColor(Color.parseColor("#87560b"));
+                bodyText.setTextColor(Color.parseColor("#87560b"));
                 return true;
 
             case R.id.sepia:
@@ -79,12 +83,14 @@ public class MainActivity extends AppCompatActivity {
                 else
                     item.setChecked(true);
                 main_view.setBackgroundColor(Color.parseColor("#eedbb6"));
-                textresult.setTextColor(Color.parseColor("#87560b"));
+                bodyTitle.setTextColor(Color.parseColor("#87560b"));
+                bodyText.setTextColor(Color.parseColor("#87560b"));
                 return true;
 
             default:
                 main_view.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                textresult.setTextColor(Color.parseColor("#000000"));
+                bodyTitle.setTextColor(Color.parseColor("#000000"));
+                bodyText.setTextColor(Color.parseColor("#000000"));
                 return super.onOptionsItemSelected(item);
 
         }

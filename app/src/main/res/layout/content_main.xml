@@ -14,9 +14,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/bodyText"
-        android:id="@+id/textView"
+        android:text="@string/bodyTitle"
+        android:id="@+id/body_Title"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:textColor="#2e69b6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/bodyText"
+        android:layout_below="@+id/body_Title"
+        android:layout_alignParentStart="false"
+        android:id="@+id/body_text" />
 </RelativeLayout>
