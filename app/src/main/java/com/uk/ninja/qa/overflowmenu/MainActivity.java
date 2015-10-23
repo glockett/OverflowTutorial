@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         RelativeLayout main_view = (RelativeLayout) findViewById(R.id.main_view);
-        TextView bodyTitle = (TextView)findViewById(R.id.body_Title);
-        TextView bodyText = (TextView)findViewById(R.id.body_Text);
+        TextView bodyTitle = (TextView)findViewById(R.id.body_title);
+        TextView bodyText = (TextView)findViewById(R.id.body_text);
 
 
         switch (item.getItemId()) {
